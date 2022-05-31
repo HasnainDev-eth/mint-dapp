@@ -1,0 +1,598 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #343a50;
+  --card-background-color: #51576d;
+  --card-background-lighter-color: #7a7f92;
+  --main-text-color: #f7f6f4;
+  --title-text-color: #3cba8b;
+  --yellowColor: #0ac3e8;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --infoColor: #0093a6;
+  --pinkColor: #ff659b;
+}
+.mobilebtn{
+  background-color: transparent;
+  border: none;
+}
+.navbar .container-fluid{
+  margin-top: 3rem;
+}
+.header-left{
+  float: left;
+}
+
+.header-right{
+  margin-left: auto;
+}
+
+.customAccordion .accordion-item {
+  margin: 2rem 0;
+  border: none;
+  box-shadow: 0px 0px 4px 2px #fff;
+  background: unset;
+}
+
+.customAccordion .accordion-item .accordion-header .accordion-button {
+  background-color: var(--Black);
+  color: var(--White);
+  font-size: 2.1875rem;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.customAccordion .accordion-item .accordion-header .accordion-button::after {
+  /* background-image: url("../src/assets/images/AccordionDrop.png") !important; */
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.customAccordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  transform: rotate(-90deg);
+}
+
+.customAccordion .accordion-item .accordion-body {
+  background-color: var(--Black);
+  color: var(--White);
+}
+
+.customAccordion .accordion-item .accordion-body p {
+  font-size: 1.5rem;
+}
+
+/* body {
+  background-color: var(--main-background-color);
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.2em;
+} */
+
+h2,
+p {
+  color: var(--main-text-color);
+}
+
+h3 {
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: MonumentExtended;
+  src: url(./fonts/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Ultralight.otf);
+}
+
+a {
+  text-decoration: none;
+  font-family: MonumentExtended;
+}
+body {
+  /* background-color: var(--yellowColor); */
+  /* background-image: url(./hero.jpeg); 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* font-family: MonumentExtended; */
+  font-weight: 300;
+}
+h3 {
+  font-family: MonumentExtended;
+  font-weight: 200 !important;
+}
+
+/* ApeClub-Section start */
+
+.ApeClub .Logo img {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem 0;
+}
+.ApeClub .apeImages img {
+  border-radius: 0.5rem;
+}
+.ApeClub .apeSection .apeInfo {
+  background-color: var(--Gray);
+  border-radius: 0.5rem;
+  height: 100%;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.apeInfo p {
+  color: var(--WhiteSmoke);
+  letter-spacing: 0.75px;
+}
+.apeInfo p strong {
+  color: var(--White);
+}
+.apeInfo .mintData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--GraySecondary);
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.apeInfo .mintData > p {
+  margin-bottom: 0;
+}
+.apeInfo .mintData > p > strong {
+  font-size: 1.375rem;
+  margin-right: 0.5rem;
+}
+.apeInfo .adding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apeInfo .adding .icon {
+  background-color:#FFFF01;
+  color: grey;
+  height: 56px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.25rem;
+}
+.apeInfo .adding .icon:hover {
+  color: black;
+
+}
+.apeInfo .adding .icon i {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.apeInfo .adding input {
+  width: 100%;
+  height: 56px;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: unset;
+  outline: 0;
+  border: 1px solid var(--GrayPrimary);
+  color: var(--White);
+  transition: all 250ms ease-in-out;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.apeInfo .adding input:focus {
+  border-color: var(--Pink);
+  box-shadow: 0 0 0 0.1rem var(--Pink);
+}
+.apeInfo .helpText {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.apeInfo .btn12 {
+  color: black!important;
+  background-color: #FFFF01;
+  padding: 1rem 0;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.apeInfo .btn12:hover {
+  color: black;
+
+}
+.apeInfo .btn {
+  color: black!important;
+  background-color: #FFFF01;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.apeInfo .btn:hover {
+  color: black;
+
+}
+.heroo-container{
+  height:100%;
+  width: auto;
+  max-width: 100%;
+}
+/* ApeClub-Section Close */
+
+
+.Button {
+  /* display: inline-block; */
+  padding: 0.5em !important;
+  background-color: var(--infoColor) !important;
+  border-radius: 30px !important;
+  color: var(--whiteColor) !important;
+  border: 2px solid var(--blackColor) !important;
+}
+.Button.connect,
+.mintBtn.connect {
+  background-color: #223ad2 !important;
+  font-family: MonumentExtended !important;
+  font-weight: 400 !important;
+}
+.Button a {
+  color: var(--whiteColor) !important;
+}
+.navBrand img {
+  width: 163px;
+}
+.Header {
+  padding: 0.5em 0;
+}
+.Header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header nav .socialLinks {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialLinks .icon,
+.socialLinks .icon1,
+.socialLinks .icon2 {
+  display: inline-block;
+  border: 8px solid var(--whiteColor);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 1em;
+  background-color: var(--infoColor);
+}
+.socialLinks .icon1 {
+  background-color: blue;
+}
+.socialLinks .icon2 {
+  background-color: var(--infoColor);
+}
+
+.MainSection {
+  padding: 2em 0;
+  background-image: url(./hero.jpeg);
+  background-size: 100% 119vh;
+  background-repeat: no-repeat;
+}
+.MainSection .Card {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  /* color: var(--whiteColor);
+  border-radius: 20px;
+  padding: 1.5em 1em;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 100px; */
+  /* margin: 2em auto; */
+  padding: 15px 40px;
+  max-width: 343px;
+  max-height: 639px;
+  border-radius: 36px;
+  margin: auto;
+  margin-top: 141px;
+
+}
+.MainSection .Card img {
+  width: 100%;
+  max-width: 380px;
+}
+.MainSection .Card .mintBtn {
+  border-radius: 20px;
+  padding: 0.7em 1em;
+  /* display: block; */
+  background-color: var(--infoColor);
+  color: var(--whiteColor);
+  margin: 1em;
+  font-size: 1.3em;
+  margin: 1em auto;
+  justify-content: center !important;
+  border-color: transparent;
+}
+.MainSection .allBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.MainSection .allBtns a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3em 2em;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+.MainSection .footerContent {
+  display: none;
+}
+.MainSection .footerContent .socialLinks {
+  max-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/*Roadmap css begins*/
+.roadmapContainer {
+  width: 50vw;
+  border-left: 3px solid gray;
+  margin-left: auto;
+  margin-top: 35px;
+}
+
+.roadmapInfo {
+  width: 80%;
+  margin-left: 4vw;
+  position: relative;
+  padding: 5vw 5vw 5vw 1vw;
+  border-radius: 10px;
+}
+
+.roadmapInfo::after {
+  content: "";
+  position: absolute;
+  width: 2vw;
+  background-color: #ffff01;
+  box-shadow: 0 0 0 2px #ffff01;
+  z-index: 1;
+  right: 41.5vw;
+  top: 7vw;
+}
+
+.roadmapInfoLeft {
+  position: relative;
+  right: 45vw;
+  width: 80%;
+  position: relative;
+  padding: 5vw 1vw 5vw 5vw;
+  border-radius: 10px;
+ 
+}
+
+.roadmapInfoLeft::after {
+  content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    box-shadow: 0 0 0 2px grey;
+    border-radius: 50%;
+    /* z-index: 1; */
+    left: 565px;
+    top: 6vw;
+}
+
+.roadmapHeading {
+  font-size: 3vw;
+  color: #ffff01;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #ffff01;
+  text-shadow: 0px 0px #fe2438;
+}
+
+.roadmapHeadingLeft {
+  text-align: end;
+  font-size: 3vw;
+  color: #ffff01;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #ffff01;
+  text-shadow: 0px 0px #fe2438;
+}
+
+.roadmapParaLeft {
+  text-align: end;
+}
+
+.roadContainer {
+  width: 50%;
+  margin: 0 auto;
+}
+/*roadmap css ends*/
+
+/* faq css begins*/
+#FAQ h1,
+#Story h1,
+.Staking h1,
+.Features h1 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.customAccordion .accordion-item {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  /* padding: 20px 30px; */
+  margin-bottom: 35px;
+
+}
+
+.customAccordion .accordion-item .accordion-header .accordion-button {
+ 
+  border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 20px 30px;
+    /* margin-bottom: 35px; */
+    width: 100%;
+
+}
+.accordion-header{
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+.customAccordion .accordion-item .accordion-header .accordion-button::after {
+  /* background-image: url("../src/assets/images/AccordionDrop.png") !important; */
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+}
+
+.customAccordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  transform: rotate(-90deg);
+}
+
+.customAccordion .accordion-item .accordion-body {
+  background-color: var(--Black);
+  color: var(--White);
+}
+
+.customAccordion .accordion-item .accordion-body p {
+  font-size: 1.5rem;
+}
+
+/*faq css ends */
+@media screen and (max-width: 992px) {
+  .Header nav .socialLinks {
+    max-width: 400px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .MainSection .footerContent {
+    display: block;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .header-left{
+    float: initial;
+  }
+  
+  .header-right{
+    float: initial;
+  }
+  .mobileLeft{
+    display: flex!important;
+    justify-content: right;
+  }
+  .mobicon{
+    margin-right: 1.8rem;
+  }
+  .MainSection {
+    padding: 2em 0;
+    background-image: url(./hero.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .MainSection .Card {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    /* color: var(--whiteColor);
+    border-radius: 20px;
+    padding: 1.5em 1em;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 100px; */
+    /* margin: 2em auto; */
+    padding: 15px 40px;
+    max-width: 343px;
+    max-height: 639px;
+    border-radius: 36px;
+    margin: auto;
+    margin-top: 28px;
+  
+  }
+  .MainSection .Card img {
+    width: 60%;
+    max-width: 380px;
+    border-radius: 20px;
+  }
+  .MainSection .Card .mintBtn {
+    border-radius: 20px;
+    padding: 0.7em 1em;
+    /* display: block; */
+    background-color: var(--infoColor);
+    color: var(--whiteColor);
+    margin: 1em;
+    font-size: 1.3em;
+    margin: 1em auto;
+    justify-content: center !important;
+    border-color: transparent;
+  }
+  .MainSection .allBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .MainSection .allBtns a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em 2em;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+  .MainSection .footerContent {
+    display: none;
+  }
+  .roadmapContainer {
+    width: 90%;
+  }
+
+  .roadmapInfo {
+    padding: 5vw 1vw 5vw 5vw;
+    margin: 2rem 0;
+    margin-left: 4vw;
+  }
+
+  .roadmapInfoLeft {
+    left: 1rem;
+    right: 0;
+  }
+
+  .roadmapInfo::after {
+    right: 73.5vw;
+    top: 10vw;
+  }
+
+  .roadmapInfoLeft::after {
+    left: -4.5vw;
+    top: 10vw;
+  }
+
+  .roadmapHeadingLeft {
+    text-align: start;
+    font-size: 2rem;
+  }
+
+  .roadmapHeading {
+    text-align: start;
+    font-size: 2rem;
+  }
+
+  .roadmapParaLeft {
+    text-align: start;
+  }
+
+  .roadmapParaRight {
+    text-align: start;
+  }
+
+  .roadContainer {
+    width: 90%;
+  }
+
+ 
+}

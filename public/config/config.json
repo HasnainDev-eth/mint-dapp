@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xbd4b9f1dee998d68f47361c98765b94e15df1ceb",
+  "SCAN_LINK": "https://etherscan.io/address/0xbd4b9f1dee998d68f47361c98765b94e15df1ceb",
+  "NETWORK": {
+    "NAME": "ETHEREUM",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "hype Birdz",
+  "SYMBOL": "HB",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST":  9900000000000000,
+  "DISPLAY_COST": 0.099,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "NFTrade",
+  "MARKETPLACE_LINK": "https://nftrade.com/",
+  "SHOW_BACKGROUND": true
+}

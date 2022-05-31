@@ -1,0 +1,673 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 1355px) and (max-width: 1900px) {
+    .header-wrapper {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .header-left ul li {
+        margin-right: 7px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1355px) {
+    .header-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-left ul li {
+        margin-right: 5px;
+    }
+    .header-right ul li {
+        margin-left: 20px;
+    }
+    .hero-oval-img img {
+        display: inline-block;
+        width: 165px;
+    }
+    .hero-wrapper {
+        top: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .your-goldren-left ul li img {
+        width: 90px;
+    }
+    .your-goldren-left ul {
+        justify-content: center;
+    }
+    .your-goldren-right h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .your-goldren {
+        margin-top: 60px;
+    }
+    .we-are-area {
+        margin-top: 80px;
+    }
+    .we-are-left h1 {
+        font-size: 32px;
+    }
+    .we-are-left p {
+        font-size: 16px;
+    }
+    .the-goldren-area {
+        margin-top: 80px;
+    }
+    .the-goldren-right h1 {
+        font-size: 32px;
+    }
+    .golden-eco-content h1 {
+        font-size: 32px;
+    }
+    .golden-eco-area {
+        margin-top: 80px;
+    }
+    .modal-video-close-btn {
+        top: -35px;
+        right: 10px;
+    }
+    .header-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-left ul li {
+        display: inline-block;
+        margin-right: 0px;
+    }
+    .header-left ul li a {
+        padding: 3px 10px;
+        margin-right: 5px;
+        border: 2px solid transparent;
+        font-size: 13px;
+    }
+    .hero-heading h2 {
+        font-size: 40px;
+    }
+    .hero-heading h2 img {
+        display: inline-block;
+        width: 28px;
+        margin-top: -52px;
+    }
+    .hero-oval-img img {
+        display: inline-block;
+        width: 130px;
+        margin-bottom: 28px;
+    }
+    .hero-oval {
+        background-color: rgba(0, 0, 0, .5);
+        padding: 15px 30px;
+    }
+    .hero-wrapper {
+        position: absolute;
+        top: 50%;
+    }
+    .header-right ul li a img {
+        display: inline-block;
+        max-width: 30px;
+    }
+    .header-right ul li {
+        display: inline-block;
+        margin-left: 29px;
+    }
+    .join-wrapper,
+    .footer-wrapper {
+        padding: 0px 0px;
+    }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .your-goldren-left ul li img {
+        width: 76px;
+    }
+    .your-goldren-left ul {
+        justify-content: center;
+    }
+    .your-goldren-right h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .your-goldren {
+        margin-top: 60px;
+    }
+    .we-are-area {
+        margin-top: 80px;
+    }
+    .we-are-left h1 {
+        font-size: 22px;
+    }
+    .we-are-right img {
+        width: 100%;
+    }
+    .we-are-left p {
+        font-size: 16px;
+    }
+    .the-goldren-area {
+        margin-top: 80px;
+    }
+    .the-goldren-left img {
+        width: 100%;
+    }
+    .the-goldren-right h1 {
+        font-size: 22px;
+    }
+    .golden-eco-content h1 {
+        font-size: 22px;
+    }
+    .golden-eco-area {
+        margin-top: 80px;
+    }
+    .modal-video-close-btn {
+        top: -35px;
+        right: 10px;
+    }
+    .header-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-bg::after {
+        content: none;
+    }
+    .header-left ul li {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+    .header-right {
+        margin-left: 15px;
+        margin-top: 15px;
+        padding-bottom: 25px;
+    }
+    .header-bar-wrapper {
+        display: none;
+    }
+    .header-right ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #header {
+        background-color: #000000;
+        padding: 8px 0px;
+        padding-top: 8px;
+        padding-top: 10px;
+    }
+    .hero-wrapper {
+        position: inherit;
+        transform: none;
+    }
+    .hero-heading h2 {
+        font-size: 42px;
+    }
+    .hero-content {
+        margin-top: -363px;
+        position: relative;
+    }
+    .team-heading h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .team-block {
+        width: 100%;
+        display: block;
+    }
+    .team-block-content {
+        width: 100%;
+    }
+    .faq-heading h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .acc__card {
+        padding: 10px 16px;
+        margin-bottom: 25px;
+    }
+    .acc__title {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .acc__title::after {
+        content: "+";
+        float: none;
+        position: absolute;
+        display: block;
+        top: 2%;
+        right: 0;
+    }
+    .join-wrapper {
+        padding: 0;
+    }
+    .join-wrapper h2 {
+        font-size: 40px;
+    }
+    .join-wrapper {
+        text-align: center;
+    }
+    .tapaimg img {
+        display: none;
+    }
+    #join {
+        padding: 40px 0px;
+    }
+    .footer-wrapper {
+        padding: 0px 0px;
+    }
+    .footer-left-input {
+        width: 325px;
+    }
+    .footer-middle img {
+        display: block;
+        width: 90px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .footer-right {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        text-align: left !important;
+    }
+    .footer-right-text {
+        margin-left: 0;
+        left: 0;
+    }
+    #team {
+        padding: 60px 0px;
+    }
+    .black {
+        padding: 8px 0px !important;
+        padding-top: 10px !important;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .modal-video-close-btn {
+        top: -35px;
+        right: 10px;
+    }
+    .your-goldren-left ul li img {
+        width: 78px;
+    }
+    .your-goldren {
+        margin-top: 60px;
+    }
+    .your-goldren-right {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .your-goldren-left ul {
+        justify-content: center;
+    }
+    .we-are-left {
+        padding-right: 0;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .we-are-area {
+        margin-top: 60px;
+    }
+    .we-are-wrapper .row {
+        flex-direction: column-reverse;
+    }
+    .we-are-right img {
+        width: 100%;
+    }
+    .the-goldren-left img {
+        width: 100%;
+    }
+    .the-goldren-area {
+        margin-top: 60px;
+    }
+    .the-goldren-right {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .golden-eco-area {
+        margin-top: 60px;
+    }
+    .golden-eco-content img {
+        width: 100%;
+    }
+    .golden-eco-content p {
+        text-align: center;
+    }
+    .the-goldren-right h1,
+    .golden-eco-content h1,
+    .your-goldren-right h1,
+    .we-are-left h1 {
+        font-size: 30px !important;
+    }
+    .header-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-bg::after {
+        content: none;
+    }
+    .header-left ul li {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+    .header-right {
+        margin-left: 15px;
+        margin-top: 15px;
+        padding-bottom: 25px;
+    }
+    .header-bar-wrapper {
+        display: none;
+    }
+    .header-right ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #header {
+        background-color: #000000;
+        padding: 8px 0px;
+        padding-top: 8px;
+        padding-top: 10px;
+    }
+    .hero-wrapper {
+        position: inherit;
+        transform: none;
+    }
+    .hero-heading h2 {
+        font-size: 42px;
+    }
+    .hero-content {
+        margin-top: -155px;
+        position: relative;
+    }
+    .team-heading h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .team-block {
+        width: 100%;
+        display: block;
+    }
+    .team-block-content {
+        width: 100%;
+    }
+    .faq-heading h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .acc__card {
+        padding: 10px 16px;
+        margin-bottom: 25px;
+    }
+    .acc__title {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .acc__title::after {
+        content: "+";
+        float: none;
+        position: absolute;
+        display: block;
+        top: 2%;
+        right: 0;
+    }
+    .join-wrapper {
+        padding: 0;
+    }
+    .join-wrapper h2 {
+        font-size: 40px;
+    }
+    .join-wrapper {
+        text-align: center;
+    }
+    .tapaimg img {
+        display: none;
+    }
+    #join {
+        padding: 40px 0px;
+    }
+    .footer-wrapper {
+        padding: 0px 0px;
+    }
+    .footer-left-input {
+        width: 325px;
+    }
+    .footer-middle img {
+        display: block;
+        width: 90px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .footer-right {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        text-align: left !important;
+    }
+    .footer-right-text {
+        margin-left: 0;
+        left: 0;
+    }
+    #team {
+        padding: 60px 0px;
+    }
+    .black {
+        padding: 8px 0px !important;
+        padding-top: 10px !important;
+    }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 576px) {
+    #hero{
+        width:100%;
+    }
+    .navbar-nav .nav-link{
+        margin-left: auto!important;
+    }
+    .modal-video-close-btn {
+        top: -35px;
+        right: 10px;
+    }
+    .your-goldren-left ul li img {
+        width: 78px;
+    }
+    .your-goldren {
+        margin-top: 60px;
+    }
+    .your-goldren-right {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .your-goldren-left ul {
+        justify-content: center;
+    }
+    .we-are-left {
+        padding-right: 0;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .we-are-area {
+        margin-top: 60px;
+    }
+    .we-are-wrapper .row {
+        flex-direction: column-reverse;
+    }
+    .we-are-right img {
+        width: 100%;
+    }
+    .the-goldren-left img {
+        width: 100%;
+    }
+    .the-goldren-area {
+        margin-top: 60px;
+    }
+    .the-goldren-right {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .golden-eco-area {
+        margin-top: 60px;
+    }
+    .golden-eco-content img {
+        width: 100%;
+    }
+    .golden-eco-content p {
+        text-align: center;
+    }
+    .the-goldren-right h1,
+    .golden-eco-content h1,
+    .your-goldren-right h1,
+    .we-are-left h1 {
+        font-size: 30px !important;
+    }
+    .header-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-bg::after {
+        content: none;
+    }
+    .navbar-toggler{
+        margin-left: auto!important;
+    }
+    .header-left ul li {
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+    .header-right {
+        margin-left: 15px;
+        margin-top: 15px;
+        padding-bottom: 25px;
+    }
+    .header-bar-wrapper {
+        display: none;
+    }
+    .header-right ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    #header {
+        background-color: #000000;
+        padding: 8px 0px;
+        padding-top: 8px;
+        padding-top: 10px;
+    }
+    .hero-wrapper {
+        position: inherit;
+        transform: none;
+    }
+    .hero-heading h2 {
+        font-size: 42px;
+    }
+    .hero-content {
+        top: -105px;
+        position: relative;
+    }
+    .navbar .container-fluid{
+        margin-top: 1rem!important;
+      }
+    .team-heading h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .team-block {
+        width: 100%;
+        display: block;
+    }
+    .team-block-content {
+        width: 100%;
+    }
+    .team-block-content1 {
+        width: 100%;
+        margin: 0px;
+    }
+    .faq-heading h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .acc__card {
+        padding: 10px 16px;
+        margin-bottom: 25px;
+    }
+    .acc__title {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .acc__title::after {
+        content: "+";
+        float: none;
+        position: absolute;
+        display: block;
+        top: 2%;
+        right: 0;
+    }
+    .join-wrapper {
+        padding: 0;
+    }
+    .join-wrapper h2 {
+        font-size: 40px;
+    }
+    .join-wrapper {
+        text-align: center;
+    }
+    .tapaimg img {
+        display: none;
+    }
+    #join {
+        padding: 40px 0px;
+    }
+    .footer-wrapper {
+        padding: 0px 0px;
+    }
+    .footer-left-input {
+        width: 325px;
+    }
+    .footer-middle img {
+        display: block;
+        width: 90px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .footer-right {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        text-align: left !important;
+    }
+    .footer-right-text {
+        margin-left: 0;
+        left: 0;
+    }
+    #team {
+        padding: 60px 0px;
+    }
+    .black {
+        padding: 8px 0px !important;
+        padding-top: 10px !important;
+    }
+}

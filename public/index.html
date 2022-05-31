@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta setup -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <meta name="decription" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- Title -->
+    <title>Hype Birdz</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="img/logo192.png" />
+
+    <!-- Include Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+    <!-- Main StyleSheet -->
+    <link rel="stylesheet" href="assets/css/style_new.css" />
+
+    <!-- youtube-video css -->
+    <link rel="stylesheet" href="assets/css/modal-video.min.css">
+
+    <!-- Include font -->
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive_new.css" />
+    <link rel="stylesheet" href="assets/css/roadmap.css" media="screen">
+
+    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+    
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+    
+    <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6Lfi5aIZAAAAALJtrO6lpS_xvpLlBuY5qCzxeTGH"></script> -->
+
+    <!-- <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lfi5aIZAAAAALJtrO6lpS_xvpLlBuY5qCzxeTGH', {
+                action: 'contact'
+            }).then(function(token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script> -->
+    <script>
+      $(function() {
+          $('.acc__title').click(function(j) {
+
+              var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+              $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
+
+              if ($(this).hasClass('active')) {
+                  $(this).removeClass('active');
+              } else {
+                  $(this).closest('.acc').find('.acc__title.active').removeClass('active');
+                  $(this).addClass('active');
+              }
+
+              dropDown.stop(false, true).slideToggle();
+              j.preventDefault();
+          });
+      });
+  </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
