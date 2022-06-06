@@ -125,7 +125,7 @@ const ApeClub = () => {
     );
 
     const contract = new ethers.Contract(
-      "0xBd4b9f1DEe998d68f47361C98765b94e15DF1ceB",
+      "0xBCa44d867C707080c504F286C35b237D2802b7E5",
       abi,
       provider
     );
@@ -179,7 +179,7 @@ const ApeClub = () => {
       const signer = provider.getSigner();
 
       const contract = new ethers.Contract(
-        "0xBd4b9f1DEe998d68f47361C98765b94e15DF1ceB",
+        "0xBCa44d867C707080c504F286C35b237D2802b7E5",
         abi,
         signer
       );
@@ -190,7 +190,7 @@ const ApeClub = () => {
 
       console.log("TotalCost", totalwei);
       console.log("mintAmount", mintAmount);
-      const tx = await contract.mint(account, mintAmount, {
+      const tx = await contract.mint( mintAmount, {
         from: account,
         value: totalwei,
         gasLimit: _gas,
