@@ -122,9 +122,9 @@ const ApeClub = () => {
     const provider = new ethers.providers.JsonRpcProvider(
      "https://mainnet.infura.io/v3/1efdcf784f144a3293de800491c5bf7a"
   
-    );
-
-    const contract = new ethers.Contract(
+    )
+try{
+const contract = new ethers.Contract(
       "0xBCa44d867C707080c504F286C35b237D2802b7E5",
       abi,
       provider
@@ -145,6 +145,11 @@ const ApeClub = () => {
 
       setTotalSupply(total.toString());
     }
+}catch (err){
+alert(rr)
+}
+
+    
   };
 
   const getMintCost = async () => {
